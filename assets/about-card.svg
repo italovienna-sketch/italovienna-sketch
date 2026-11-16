@@ -9,10 +9,10 @@
   <text x="54" y="47" fill="#fbbf24" font-family="'Courier New', Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="0.7">★ 1º LUGAR — GRAND PRIX SENAI DE INOVAÇÃO</text>
 
   <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">
-    <text x="40" y="88">Industrial Mechanics apprentice at Brasal / SENAI-DF and 1st Place winner</text>
-    <text x="40" y="110">at the Grand Prix SENAI de Inovação. I build practical AI prototypes for</text>
-    <text x="40" y="132">industrial maintenance, real-time PPE safety monitoring, warehouse</text>
-    <text x="40" y="154">automation, and interactive 3D mechanical training platforms.</text>
+    <text x="40" y="88">Aprendiz de Mecânica Industrial na Brasal / SENAI-DF e vencedor em 1º lugar</text>
+    <text x="40" y="110">do Grand Prix SENAI de Inovação. Desenvolvo protótipos práticos para</text>
+    <text x="40" y="132">manutenção industrial, monitoramento de EPIs em tempo real, automação de</text>
+    <text x="40" y="154">almoxarifado e plataformas interativas de treinamento mecânico em 3D.</text>
   </g>
 
   <g transform="translate(790, 96)" fill="none" opacity="0.58">
@@ -31,7 +31,7 @@
     <line x1="22" y1="22" x2="30" y2="30" stroke="#38bdf8" stroke-width="4"/>
     <line x1="-30" y1="30" x2="-22" y2="22" stroke="#38bdf8" stroke-width="4"/>
     <line x1="22" y1="-22" x2="30" y2="-30" stroke="#38bdf8" stroke-width="4"/>
-    <text x="-52" y="-61" fill="#00d4ff" font-family="'Courier New', Consolas, monospace" font-size="9">CAD_DET: 0.99</text>
+    <text x="-52" y="-61" fill="#00d4ff" font-family="'Courier New', Consolas, monospace" font-size="9">DET_CAD: 0.99</text>
   </g>
 
   <line x1="40" y1="182" x2="860" y2="182" stroke="#1e3a5f" stroke-width="1"/>
@@ -39,20 +39,20 @@
   <circle cx="860" cy="182" r="3" fill="#00d4ff"/>
 
   <g font-family="'Courier New', Consolas, monospace" font-size="12" font-weight="700" fill="#38bdf8">
-    <text x="40" y="220">ROLE</text>
-    <text x="40" y="254">AWARD</text>
-    <text x="40" y="288">CORE FOCUS</text>
-    <text x="40" y="322">PROJECTS</text>
+    <text x="40" y="220">ATUAÇÃO</text>
+    <text x="40" y="254">PREMIAÇÃO</text>
+    <text x="40" y="288">FOCO PRINCIPAL</text>
+    <text x="40" y="322">PROJETOS</text>
     <text x="40" y="356">STACK</text>
-    <text x="40" y="390">EDUCATION</text>
+    <text x="40" y="390">FORMAÇÃO</text>
   </g>
 
   <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#f1f5f9">
-    <text x="200" y="220">Industrial Mechanics Apprentice @ Brasal | SENAI-DF</text>
-    <text x="200" y="254" fill="#fbbf24">1st Place — Grand Prix SENAI de Inovação</text>
-    <text x="200" y="288">Computer Vision (YOLO/ONNX), Predictive Maintenance &amp; Industrial AI</text>
-    <text x="200" y="322">VisionSafe AI (PPE Monitoring), Mecânica Lab (3D Training), SmartStock</text>
-    <text x="200" y="356">Python, React, TypeScript, ONNX Runtime, Blender 3D, CAD 2D</text>
-    <text x="200" y="390">Electromechanics (SENAI-DF) &amp; Systems Development (UCB)</text>
+    <text x="205" y="220">Aprendiz de Mecânica Industrial @ Brasal | SENAI-DF</text>
+    <text x="205" y="254" fill="#fbbf24">1º Lugar — Grand Prix SENAI de Inovação</text>
+    <text x="205" y="288">Visão Computacional (YOLO/ONNX), Manutenção Preditiva &amp; IA Industrial</text>
+    <text x="205" y="322">VisionSafe AI (EPIs), Mecânica Lab (Treino 3D), SmartStock</text>
+    <text x="205" y="356">Python, React, TypeScript, ONNX Runtime, Blender 3D, CAD 2D</text>
+    <text x="205" y="390">Eletromecânica &amp; Mecânica Industrial (SENAI-DF)</text>
   </g>
 </svg>
