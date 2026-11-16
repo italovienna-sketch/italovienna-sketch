@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 240" width="900" height="240">
+  <defs>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#09090c"/>
+      <stop offset="55%" stop-color="#110b0e"/>
+      <stop offset="100%" stop-color="#1c0b0e"/>
+    </linearGradient>
+    <radialGradient id="horizonGlow" cx="78%" cy="68%" r="55%">
+      <stop offset="0%" stop-color="#c92a2a" stop-opacity="0.28"/>
+      <stop offset="55%" stop-color="#7a1212" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#09090c" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coronaOuter" cx="50%" cy="50%" r="50%">
+      <stop offset="52%" stop-color="#fff5f5" stop-opacity="0.95"/>
+      <stop offset="62%" stop-color="#e03131" stop-opacity="0.85"/>
+      <stop offset="78%" stop-color="#c92a2a" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#1c0b0e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="flareGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#ffe3e3" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#e03131" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bronzeLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8c6d46" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#6e5638" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#6e5638" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="eclipseBlur" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="textShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000000" flood-opacity="0.85"/>
+    </filter>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="240" rx="6" fill="url(#skyGrad)"/>
+  <rect x="0" y="0" width="900" height="240" rx="6" fill="url(#horizonGlow)"/>
+
+  <g fill="#e9ecef" opacity="0.32">
+    <circle cx="92" cy="36" r="1"/>
+    <circle cx="218" cy="24" r="0.8"/>
+    <circle cx="340" cy="48" r="1.1"/>
+    <circle cx="465" cy="28" r="0.9"/>
+    <circle cx="535" cy="64" r="1"/>
+    <circle cx="602" cy="34" r="1.2"/>
+    <circle cx="835" cy="42" r="0.9"/>
+    <circle cx="860" cy="88" r="1.1"/>
+    <circle cx="585" cy="148" r="0.8"/>
+    <circle cx="412" cy="136" r="0.8"/>
+  </g>
+
+  <g fill="none" stroke="#8c6d46" stroke-width="0.8" opacity="0.32">
+    <circle cx="725" cy="112" r="88" stroke-dasharray="3 6"/>
+    <circle cx="725" cy="112" r="108" stroke-dasharray="1 8"/>
+    <ellipse cx="725" cy="112" rx="126" ry="42" transform="rotate(-18 725 112)" opacity="0.65"/>
+  </g>
+
+  <g filter="url(#eclipseBlur)">
+    <circle cx="725" cy="112" r="76" fill="url(#coronaOuter)"/>
+  </g>
+  <circle cx="725" cy="112" r="50" fill="#fff5f5" opacity="0.9"/>
+  <circle cx="725" cy="112" r="48.5" fill="#e03131" opacity="0.75"/>
+  <circle cx="725" cy="112" r="47" fill="#09090c"/>
+  <circle cx="690" cy="80" r="10" fill="url(#flareGlow)"/>
+  <circle cx="690" cy="80" r="2.5" fill="#ffffff"/>
+
+  <path d="M 0 240 L 0 202 L 45 196 L 88 205 L 135 186 L 185 198 L 235 188 L 285 204 L 350 192 L 410 208 L 480 194 L 545 205 L 615 186 L 670 198 L 725 178 L 780 196 L 840 184 L 900 198 L 900 240 Z" fill="#0d0d12" opacity="0.85"/>
+  <path d="M 0 240 L 0 214 L 70 210 L 125 220 L 195 208 L 265 218 L 340 211 L 430 222 L 515 212 L 590 221 L 675 207 L 755 217 L 835 209 L 900 216 L 900 240 Z" fill="#070709"/>
+
+  <rect x="1" y="1" width="898" height="238" rx="6" fill="none" stroke="#2a241d" stroke-width="1"/>
+  <path d="M 14 26 L 14 14 L 26 14" fill="none" stroke="#8c6d46" stroke-width="1.5"/>
+  <path d="M 874 14 L 886 14 L 886 26" fill="none" stroke="#8c6d46" stroke-width="1.5"/>
+  <path d="M 14 214 L 14 226 L 26 226" fill="none" stroke="#8c6d46" stroke-width="1.5"/>
+  <path d="M 874 226 L 886 226 L 886 214" fill="none" stroke="#8c6d46" stroke-width="1.5"/>
+
+  <text x="52" y="54" fill="#b89768" font-family="'Courier New', Consolas, monospace" font-size="11.5" letter-spacing="3">IV LABS // BRASÍLIA · DF</text>
+  <text x="50" y="114" fill="#f1f3f5" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="bold" filter="url(#textShadow)">Olá, Mundo.</text>
+  <text x="52" y="146" fill="#e9ecef" font-family="'Courier New', Consolas, monospace" font-size="13" letter-spacing="2.2">ITALO VIANA · MECÂNICA INDUSTRIAL E SOFTWARE</text>
+  <line x1="52" y1="164" x2="430" y2="164" stroke="url(#bronzeLine)" stroke-width="1"/>
+  <line x1="52" y1="164" x2="112" y2="164" stroke="#c92a2a" stroke-width="2"/>
+  <text x="52" y="186" fill="#909296" font-family="'Courier New', Consolas, monospace" font-size="11" letter-spacing="1.5">MANUTENÇÃO · ENSINO TÉCNICO 3D · VISÃO COMPUTACIONAL</text>
+</svg>
