@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" width="900" height="395">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#121216"/>
+      <stop offset="100%" stop-color="#0e0e12"/>
+    </linearGradient>
+    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6e5638" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#25252d" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#6e5638" stop-opacity="0.6"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="1" y="1" width="898" height="393" rx="6" fill="url(#cardBg)" stroke="#6e5638" stroke-width="1"/>
+  <rect x="8" y="8" width="884" height="379" rx="4" fill="none" stroke="#2a241d" stroke-width="0.8"/>
+
+  <path d="M 16 30 L 16 16 L 30 16" fill="none" stroke="#b89768" stroke-width="1.5"/>
+  <path d="M 870 16 L 884 16 L 884 30" fill="none" stroke="#b89768" stroke-width="1.5"/>
+  <path d="M 16 365 L 16 379 L 30 379" fill="none" stroke="#b89768" stroke-width="1.5"/>
+  <path d="M 870 379 L 884 379 L 884 365" fill="none" stroke="#b89768" stroke-width="1.5"/>
+
+  <g transform="translate(792, 82)" fill="none" opacity="0.62">
+    <circle cx="0" cy="0" r="46" stroke="#5c4932" stroke-width="0.9" stroke-dasharray="3 4"/>
+    <circle cx="0" cy="0" r="32" stroke="#8c6d46" stroke-width="1"/>
+    <circle cx="0" cy="0" r="20" stroke="#c92a2a" stroke-width="1.2" opacity="0.85"/>
+    <ellipse cx="0" cy="0" rx="56" ry="18" stroke="#5c4932" stroke-width="0.8" transform="rotate(-24)"/>
+    <ellipse cx="0" cy="0" rx="56" ry="18" stroke="#5c4932" stroke-width="0.8" transform="rotate(24)"/>
+    <line x1="-62" y1="0" x2="62" y2="0" stroke="#2a241d" stroke-width="0.8"/>
+    <line x1="0" y1="-62" x2="0" y2="62" stroke="#2a241d" stroke-width="0.8"/>
+    <circle cx="24" cy="-21" r="2.2" fill="#b89768"/>
+    <circle cx="-28" cy="14" r="2" fill="#c92a2a"/>
+  </g>
+
+  <text x="44" y="88" fill="#d63031" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="bold">M</text>
+
+  <text x="108" y="58" fill="#dee2e6" font-family="Georgia, 'Times New Roman', serif" font-size="14.5">ecânica industrial no chão de fábrica e software no navegador.</text>
+  <text x="108" y="81" fill="#dee2e6" font-family="Georgia, 'Times New Roman', serif" font-size="14.5">Sou aprendiz em mecânica industrial em Brasília e desenvolvo</text>
+  <text x="46" y="108" fill="#dee2e6" font-family="Georgia, 'Times New Roman', serif" font-size="14.5">protótipos para manutenção, ensino técnico em 3D e segurança operacional,</text>
+  <text x="46" y="131" fill="#dee2e6" font-family="Georgia, 'Times New Roman', serif" font-size="14.5">utilizando IA e engenharia prática para transformar ideias em ferramentas reais.</text>
+
+  <line x1="45" y1="158" x2="855" y2="158" stroke="url(#dividerGrad)" stroke-width="1"/>
+  <polygon points="450,154 454,158 450,162 446,158" fill="#8c6d46"/>
+
+  <g font-family="'Courier New', Consolas, monospace" font-size="12" letter-spacing="1.2" fill="#b89768">
+    <text x="45" y="198">ATUAÇÃO</text>
+    <text x="45" y="236">FOCO ATUAL</text>
+    <text x="45" y="274">STACK</text>
+    <text x="45" y="312">FORMAÇÃO</text>
+    <text x="45" y="350">INTERESSES</text>
+  </g>
+
+  <g fill="#c92a2a">
+    <circle cx="195" cy="194" r="2"/>
+    <circle cx="195" cy="232" r="2"/>
+    <circle cx="195" cy="270" r="2"/>
+    <circle cx="195" cy="308" r="2"/>
+    <circle cx="195" cy="346" r="2"/>
+  </g>
+
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#e9ecef">
+    <text x="215" y="198">Aprendiz em Mecânica Industrial &amp; Criador de Protótipos (IV Labs)</text>
+    <text x="215" y="236">Manutenção Inteligente, Laboratórios 3D e Visão Computacional (EPIs)</text>
+    <text x="215" y="274">TypeScript, React, Three.js, Python, ONNX Runtime, Node.js, SQLite</text>
+    <text x="215" y="312">Aprendizagem em Mecânica Industrial · Brasília, DF, Brasil</text>
+    <text x="215" y="350">Modelagem 3D (Blender), Automação Industrial, IA Aplicada</text>
+  </g>
+</svg>
