@@ -1,67 +1,58 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 395" width="900" height="395">
-  <defs>
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#121216"/>
-      <stop offset="100%" stop-color="#0e0e12"/>
-    </linearGradient>
-    <linearGradient id="dividerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#6e5638" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#25252d" stop-opacity="1"/>
-      <stop offset="100%" stop-color="#6e5638" stop-opacity="0.6"/>
-    </linearGradient>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 436" width="900" height="436">
+  <rect x="1" y="1" width="898" height="434" rx="6" fill="#0b1322" stroke="#1e3a5f" stroke-width="1"/>
+  <path d="M 14 30 L 14 14 L 30 14" fill="none" stroke="#00d4ff" stroke-width="1.8"/>
+  <path d="M 870 14 L 886 14 L 886 30" fill="none" stroke="#00d4ff" stroke-width="1.8"/>
+  <path d="M 14 406 L 14 422 L 30 422" fill="none" stroke="#00d4ff" stroke-width="1.8"/>
+  <path d="M 870 422 L 886 422 L 886 406" fill="none" stroke="#00d4ff" stroke-width="1.8"/>
 
-  <rect x="1" y="1" width="898" height="393" rx="6" fill="url(#cardBg)" stroke="#6e5638" stroke-width="1"/>
-  <rect x="8" y="8" width="884" height="379" rx="4" fill="none" stroke="#2a241d" stroke-width="0.8"/>
+  <rect x="40" y="28" width="388" height="28" rx="4" fill="#172554" stroke="#f59e0b" stroke-width="1.2"/>
+  <text x="54" y="47" fill="#fbbf24" font-family="'Courier New', Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="0.7">★ 1º LUGAR — GRAND PRIX SENAI DE INOVAÇÃO</text>
 
-  <path d="M 16 30 L 16 16 L 30 16" fill="none" stroke="#b89768" stroke-width="1.5"/>
-  <path d="M 870 16 L 884 16 L 884 30" fill="none" stroke="#b89768" stroke-width="1.5"/>
-  <path d="M 16 365 L 16 379 L 30 379" fill="none" stroke="#b89768" stroke-width="1.5"/>
-  <path d="M 870 379 L 884 379 L 884 365" fill="none" stroke="#b89768" stroke-width="1.5"/>
-
-  <g transform="translate(792, 82)" fill="none" opacity="0.62">
-    <circle cx="0" cy="0" r="46" stroke="#5c4932" stroke-width="0.9" stroke-dasharray="3 4"/>
-    <circle cx="0" cy="0" r="32" stroke="#8c6d46" stroke-width="1"/>
-    <circle cx="0" cy="0" r="20" stroke="#c92a2a" stroke-width="1.2" opacity="0.85"/>
-    <ellipse cx="0" cy="0" rx="56" ry="18" stroke="#5c4932" stroke-width="0.8" transform="rotate(-24)"/>
-    <ellipse cx="0" cy="0" rx="56" ry="18" stroke="#5c4932" stroke-width="0.8" transform="rotate(24)"/>
-    <line x1="-62" y1="0" x2="62" y2="0" stroke="#2a241d" stroke-width="0.8"/>
-    <line x1="0" y1="-62" x2="0" y2="62" stroke="#2a241d" stroke-width="0.8"/>
-    <circle cx="24" cy="-21" r="2.2" fill="#b89768"/>
-    <circle cx="-28" cy="14" r="2" fill="#c92a2a"/>
+  <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" fill="#e2e8f0">
+    <text x="40" y="88">Industrial Mechanics apprentice at Brasal / SENAI-DF and 1st Place winner</text>
+    <text x="40" y="110">at the Grand Prix SENAI de Inovação. I build practical AI prototypes for</text>
+    <text x="40" y="132">industrial maintenance, real-time PPE safety monitoring, warehouse</text>
+    <text x="40" y="154">automation, and interactive 3D mechanical training platforms.</text>
   </g>
 
-  <text x="44" y="88" fill="#d63031" font-family="Georgia, 'Times New Roman', serif" font-size="56" font-weight="bold">M</text>
-
-  <text x="108" y="58" fill="#dee2e6" font-family="Georgia, 'Times New Roman', serif" font-size="14.5">ecânica industrial no chão de fábrica e software no navegador.</text>
-  <text x="108" y="81" fill="#dee2e6" font-family="Georgia, 'Times New Roman', serif" font-size="14.5">Sou aprendiz em mecânica industrial em Brasília e desenvolvo</text>
-  <text x="46" y="108" fill="#dee2e6" font-family="Georgia, 'Times New Roman', serif" font-size="14.5">protótipos para manutenção, ensino técnico em 3D e segurança operacional,</text>
-  <text x="46" y="131" fill="#dee2e6" font-family="Georgia, 'Times New Roman', serif" font-size="14.5">utilizando IA e engenharia prática para transformar ideias em ferramentas reais.</text>
-
-  <line x1="45" y1="158" x2="855" y2="158" stroke="url(#dividerGrad)" stroke-width="1"/>
-  <polygon points="450,154 454,158 450,162 446,158" fill="#8c6d46"/>
-
-  <g font-family="'Courier New', Consolas, monospace" font-size="12" letter-spacing="1.2" fill="#b89768">
-    <text x="45" y="198">ATUAÇÃO</text>
-    <text x="45" y="236">FOCO ATUAL</text>
-    <text x="45" y="274">STACK</text>
-    <text x="45" y="312">FORMAÇÃO</text>
-    <text x="45" y="350">INTERESSES</text>
+  <g transform="translate(790, 96)" fill="none" opacity="0.58">
+    <rect x="-56" y="-56" width="112" height="112" stroke="#00d4ff" stroke-width="0.9" stroke-dasharray="4 4"/>
+    <path d="M -56 -42 L -56 -56 L -42 -56" stroke="#00d4ff" stroke-width="2"/>
+    <path d="M 42 -56 L 56 -56 L 56 -42" stroke="#00d4ff" stroke-width="2"/>
+    <path d="M -56 42 L -56 56 L -42 56" stroke="#00d4ff" stroke-width="2"/>
+    <path d="M 42 56 L 56 56 L 56 42" stroke="#00d4ff" stroke-width="2"/>
+    <circle cx="0" cy="0" r="32" stroke="#38bdf8" stroke-width="1.4"/>
+    <circle cx="0" cy="0" r="14" stroke="#00d4ff" stroke-width="1.4"/>
+    <line x1="0" y1="-42" x2="0" y2="-32" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="0" y1="32" x2="0" y2="42" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="-42" y1="0" x2="-32" y2="0" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="32" y1="0" x2="42" y2="0" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="-30" y1="-30" x2="-22" y2="-22" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="22" y1="22" x2="30" y2="30" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="-30" y1="30" x2="-22" y2="22" stroke="#38bdf8" stroke-width="4"/>
+    <line x1="22" y1="-22" x2="30" y2="-30" stroke="#38bdf8" stroke-width="4"/>
+    <text x="-52" y="-61" fill="#00d4ff" font-family="'Courier New', Consolas, monospace" font-size="9">CAD_DET: 0.99</text>
   </g>
 
-  <g fill="#c92a2a">
-    <circle cx="195" cy="194" r="2"/>
-    <circle cx="195" cy="232" r="2"/>
-    <circle cx="195" cy="270" r="2"/>
-    <circle cx="195" cy="308" r="2"/>
-    <circle cx="195" cy="346" r="2"/>
+  <line x1="40" y1="182" x2="860" y2="182" stroke="#1e3a5f" stroke-width="1"/>
+  <circle cx="40" cy="182" r="3" fill="#00d4ff"/>
+  <circle cx="860" cy="182" r="3" fill="#00d4ff"/>
+
+  <g font-family="'Courier New', Consolas, monospace" font-size="12" font-weight="700" fill="#38bdf8">
+    <text x="40" y="220">ROLE</text>
+    <text x="40" y="254">AWARD</text>
+    <text x="40" y="288">CORE FOCUS</text>
+    <text x="40" y="322">PROJECTS</text>
+    <text x="40" y="356">STACK</text>
+    <text x="40" y="390">EDUCATION</text>
   </g>
 
-  <g font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#e9ecef">
-    <text x="215" y="198">Aprendiz em Mecânica Industrial &amp; Criador de Protótipos (IV Labs)</text>
-    <text x="215" y="236">Manutenção Inteligente, Laboratórios 3D e Visão Computacional (EPIs)</text>
-    <text x="215" y="274">TypeScript, React, Three.js, Python, ONNX Runtime, Node.js, SQLite</text>
-    <text x="215" y="312">Aprendizagem em Mecânica Industrial · Brasília, DF, Brasil</text>
-    <text x="215" y="350">Modelagem 3D (Blender), Automação Industrial, IA Aplicada</text>
+  <g font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13.5" fill="#f1f5f9">
+    <text x="200" y="220">Industrial Mechanics Apprentice @ Brasal | SENAI-DF</text>
+    <text x="200" y="254" fill="#fbbf24">1st Place — Grand Prix SENAI de Inovação</text>
+    <text x="200" y="288">Computer Vision (YOLO/ONNX), Predictive Maintenance &amp; Industrial AI</text>
+    <text x="200" y="322">VisionSafe AI (PPE Monitoring), Mecânica Lab (3D Training), SmartStock</text>
+    <text x="200" y="356">Python, React, TypeScript, ONNX Runtime, Blender 3D, CAD 2D</text>
+    <text x="200" y="390">Electromechanics (SENAI-DF) &amp; Systems Development (UCB)</text>
   </g>
 </svg>
